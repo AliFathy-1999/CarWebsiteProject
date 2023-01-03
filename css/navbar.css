@@ -1,0 +1,36 @@
+*{
+    box-sizing:  border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Trirong", serif;
+}
+#nav-style{
+    background-color: #ADD7F6;
+    overflow: hidden; /*to appear background-color */
+}
+#logo{
+    width: 11vh;
+    height: 11vh;
+    margin-top: 1vh;
+}
+nav>ul>li{
+    list-style: none;
+}
+.style-list{
+    text-decoration: none;
+    color:black;    
+    font-size: 2em;
+    display: block;
+}
+#style-ul{
+    float: right;
+}
+#style-ul>li{
+    float: left;
+    margin: 3vh;
+}
+#style-ul>li>a:hover{
+    color: blue;
+    border-top: 5px solid blue;
+    cursor: pointer;
+}
