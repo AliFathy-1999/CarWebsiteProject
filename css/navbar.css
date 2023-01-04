@@ -7,6 +7,9 @@
 #nav-style{
     background-color: #ADD7F6;
     overflow: hidden; /*to appear background-color */
+    /*position: fixed;
+    top: 0;
+    width: 100%;*/
 }
 #logo{
     width: 11vh;
@@ -32,5 +35,16 @@ nav>ul>li{
 #style-ul>li>a:hover{
     color: blue;
     border-top: 5px solid blue;
-    cursor: pointer;
 }
+#style-ul>li>a:visited{
+    background-color: blue;
+
+}
+.active{
+
+}
+/*@media screen and (min-width: 600px) and (max-width:768px) {
+    body {
+        background-color: red;
+    }
+}*/

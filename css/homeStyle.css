@@ -1,10 +1,42 @@
-h1{
-    color: red;
-}
 #home-style{
-    margin-top: 5vh;
+    margin-top: 20vh;
+    
 }
 #videos-style{
     border: 0;
     margin-left: 25vh;
+}
+.div-title{
+    text-align: center;
+    margin-top: 3vh;
+    
+}
+.products-style{
+    margin-left: 13vw;
+    margin-bottom: 40vh;
+}
+.products-style>section{
+    float: left;
+}
+.products-style>section>h3{ 
+    text-align: center;
+    text-decoration: underline;
+}
+.products-style>section>p{ 
+    text-align: center;
+    width: 20vw;
+    height: 15vh;
+    overflow:auto;
+}
+.product-desc{
+    text-align: center;
+}
+.product-features{
+    font-weight: bold ;
+}
+p::first-letter{
+    font-size: x-large;
+}
+section{
+   margin: 0.5vw;
 }

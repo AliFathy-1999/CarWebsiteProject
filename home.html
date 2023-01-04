@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/x-icon" href="./images/carlogo.png"/>
     <link rel="stylesheet" href="./css/homeStyle.css">
     <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
 </head>
 <body>
@@ -14,18 +17,71 @@
            <li  style="float: left;"><a href="./home.html" ><img src="./images/carlogo.png" alt="Website Logo" id="logo"/></a></li> 
         </ul>
         <ul id="style-ul">
-            <li><a class="style-list" href="">Home</a></li>
-            <li><a class="style-list" href="">Contact Us</a></li>
-            <li><a class="style-list" href="">Users</a></li>
-            <li><a class="style-list" href="">Login</a></li>
-            <li><a class="style-list" href="">Register</a></li>  
+            <li><a class="style-list" href="./home.html"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a class="style-list" href="./pages/ContactUs.html"><i class="fa-solid fa-address-book"></i> Contact Us</a></li>
+            <li><a class="style-list" href="./pages/Users.html"><i class="fa-sharp fa-solid fa-user"></i> Users</a></li>
+            <li><a class="style-list" href="./pages/Login.html"><i class="fa-solid fa-right-to-bracket"></i> Login</a></li>
+            <li><a class="style-list" href="./pages/Register.html"><i class="fa-solid fa-user-plus"></i> Register</a></li>  
         </ul>
     </nav>
+    
     <div id="home-style">
-        <video width="1500" height="600" id="videos-style" width="1000" height="450" loop autoplay="autoplay">
+        <video width="1500" height="600" id="videos-style" loop autoplay>
             <source src="./images/CarsVideo.mp4" type="video/mp4">
             Your browser does not support HTML video.
           </video> 
     </div>
+    <div class="products-style">
+        <h1 class="div-title">Featured product</h1>
+        <section>
+            <img src="./images/car1.png" alt="product1" width="350" height="250"/>
+            <h3>BMW x6</h3>
+            <p>
+                <span class="product-features">
+                    The BMW X6 is a mid-size luxury crossover SUV by German automaker BMW. The BMW X6 is the originator of the sports activity coupé (SAC), referencing its sloping rear roof design. 
+                </span>
+            </p>
+        </section>
+        <section>
+            <img src="./images/Mitsubishi.png" alt="product2" width="350" height="250"/>
+            <h3>Mitsubishi Eclipse cross</h3>
+            <p>
+                <span class="product-features">
+                    Take sporty to a new level with the 2023 Eclipse Cross. Complete with standard S-AWC , Apple CarPlay® and sumptuous style.
+                </span>
+            </p>
+        </section>
+        <section>
+            <img src="./images/marcedes.png" alt="product3" width="350" height="250"/>
+            <h3>Mercedes benz C 200</h3>
+            <p>
+                <span class="product-features">
+                    The Mercedes-Benz C-Class 2023 C 200 including VAT. One of 11 available trim levels, the C-200 is available with Airbags, Anti theft alarm, Attention Assist and BA (Brake Assist).
+                </span>
+            </p>
+        </section>
+        <section>
+            <img src="./images/Audi Q3.jpg" alt="product4" width="350" height="250"/>
+            <h3>Audi Q3</h3>
+            <p><span class="product-features">A perfect balance of smart design, impressive performance, and everyday functionality, the 2023 Audi Q3 is ideal for city driving or adventures on the open road.</span></p>
+        </section>
+    </div>
+    <div class="fixed"></div>
+    <footer id="footer-style">
+        <ul id="footer-ul">
+            <li><p id="copyright" class="footer-li">&copy; 2022 Auto Masr, Inc</p></li>
+            <li> <p id="developer-name" class="footer-li">This website made by Web Developer <a href="https://github.com/AliFathy-1999" target="_blank"><i class="fa-brands fa-github"></i>  Ali Ahmed Fathi</a></p></li>
+            <li>
+                <ul id="footer-terms" class="footer-li">
+                    <li><a href="">Company Information</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Term & Conditions</a></li>
+                </ul>
+            </li>
+        </ul>
+        
+       
+
+    </footer>
 </body>
 </html>

@@ -1,0 +1,30 @@
+.fixed{
+    clear: both;
+}
+#footer-style{
+    background-color: #ADD7F6;
+    margin-top: 10vh;
+    font-size: 1.2em;
+    font-weight: bold;
+    height: 15vh;
+   
+}
+#footer-style a{
+    text-decoration: none;
+}
+
+#footer-ul li{
+    list-style: none;
+  }
+.footer-li{
+    float: left;
+    width: 33%;
+    padding: 50px;
+}
+
+#footer-terms>li{
+    display: inline;
+}
+#footer-terms>li:not(:last-child)::after{
+    content: "|";
+}
