@@ -1,0 +1,53 @@
+#login-style{
+    margin: auto;
+    margin-top: 20vh;
+    width: 45%;
+    border: 10px solid #ADD7F6;
+    padding: 4vh;
+    border-radius: 2em;
+    overflow: auto;
+    padding: 5vw;
+}
+#footer-style{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+input{
+    margin-left: 0.9vw;
+    margin-bottom: 1vw;
+    width: 25vw;
+    height: 4vh;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+input{
+    vertical-align: top;
+    width: 25vw;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+    
+}
+label{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+h1{
+    text-align: center;
+    margin-bottom: 2vh;
+}
+#button-style{
+    margin-top: 4vh;
+    width: 10vw;
+    background-color: #ADD7F6;
+    color: blue;
+    padding: 1%;
+    border: 0;
+    border-radius: 100px ;
+    font-weight: bold;
+    margin-left: 30%;
+    cursor: pointer;
+}

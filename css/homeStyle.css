@@ -34,9 +34,23 @@
 .product-features{
     font-weight: bold ;
 }
-p::first-letter{
+section p::first-letter{
     font-size: x-large;
+    color: red;
 }
 section{
    margin: 0.5vw;
+}
+.show-more-button{
+    border: 0;
+    padding: 1vw;
+    background-color: #0275d8;
+    border-radius: 8px;
+    margin-left: 5vw;
+}
+.show-more-button>a{
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bolder;
+    color: white;
 }
