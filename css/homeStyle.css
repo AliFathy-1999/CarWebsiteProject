@@ -1,10 +1,10 @@
 #home-style{
-    margin-top: 20vh;
+    margin-top: 10vh;
     
 }
 #videos-style{
     border: 0;
-    margin-left: 25vh;
+    margin-left: 20vh;
 }
 .div-title{
     text-align: center;
@@ -12,45 +12,83 @@
     
 }
 .products-style{
-    margin-left: 13vw;
+    margin-left: 10vw;
     margin-bottom: 40vh;
+
 }
 .products-style>section{
     float: left;
+    background-color: #eaeff1;
+    padding: 0.3vw;
+    border-radius: 0.5vw;
+    margin: 0.5vw;
+    overflow: auto;
+}
+.products-style>section>img{ 
+    margin: 1vh 0 0 1vw;
 }
 .products-style>section>h3{ 
     text-align: center;
     text-decoration: underline;
 }
-.products-style>section>p{ 
+.product-features{ 
     text-align: center;
     width: 20vw;
     height: 15vh;
     overflow:auto;
+    font-weight: bold ;
 }
 .product-desc{
     text-align: center;
 }
-.product-features{
-    font-weight: bold ;
-}
+
 section p::first-letter{
     font-size: x-large;
     color: red;
-}
-section{
-   margin: 0.5vw;
 }
 .show-more-button{
     border: 0;
     padding: 1vw;
     background-color: #0275d8;
     border-radius: 8px;
-    margin-left: 5vw;
+    margin: 0 0 1vh 5vw;
 }
 .show-more-button>a{
     text-decoration: none;
     font-size: 1.2em;
     font-weight: bolder;
     color: white;
+}
+/* tablets and small devices (phones, 1000px and down) */
+@media only screen and (max-width:1000px) {
+    .products-style{
+        width: 100%;
+    }
+    .products-style>section{
+        text-align: center;
+        width: 80%;
+        padding: 2vw;
+        margin-bottom: 2vh;
+    }
+    .products-style>section>p{
+        width: fit-content;
+    }
+}
+/* Large devices (laptops/desktops, 1000px and up) */
+@media only screen and (min-width:1000px) and (max-width:1400px){
+    #footer-style{
+        height: 100%;
+        overflow: hidden;
+        font-size: 1em;
+    }
+    .products-style>section{
+        text-align: center;
+        width: 45%;
+        padding: 4vw;
+        margin-bottom: 2vh;
+    }
+    .products-style>section>p{
+        width: fit-content;
+    }
+    
 }

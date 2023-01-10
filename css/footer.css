@@ -6,7 +6,8 @@
     margin-top: 10vh;
     font-size: 1.2em;
     font-weight: bold;
-    height: 15vh;
+    overflow: hidden;
+    
    
 }
 #footer-style a{
@@ -28,3 +29,23 @@
 #footer-terms>li:not(:last-child)::after{
     content: "|";
 }
+/* tablets and small devices (phones, 1000px and down) */
+@media only screen and (max-width:1000px) {
+
+    body{
+        overflow-block: hidden;
+    }
+    #footer-style{
+        width: 100%;
+        height: fit-content;
+    }
+}
+/* Large devices (laptops/desktops, 1000px and up) */
+@media only screen and (min-width:1000px) and (max-width:1400px){
+    #footer-style{
+        width: 100%;
+        height: 100%;
+        font-size: 1em;
+    }
+}
+
