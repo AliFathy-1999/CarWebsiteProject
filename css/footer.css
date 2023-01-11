@@ -7,8 +7,6 @@
     font-size: 1.2em;
     font-weight: bold;
     overflow: hidden;
-    
-   
 }
 #footer-style a{
     text-decoration: none;
@@ -20,7 +18,7 @@
 .footer-li{
     float: left;
     width: 33%;
-    padding: 50px;
+    padding: 3vw;
 }
 
 #footer-terms>li{
@@ -31,13 +29,17 @@
 }
 /* tablets and small devices (phones, 1000px and down) */
 @media only screen and (max-width:1000px) {
-
-    body{
-        overflow-block: hidden;
+    #footer-ul>li>p{
+        display: block;
+        width: max-content;
+        font-size: 0.8em; 
+        text-align: center;
     }
-    #footer-style{
-        width: 100%;
-        height: fit-content;
+    #footer-ul>li>ul{
+        display: block;
+        width: max-content;
+        font-size: 0.8em; 
+        text-align: center;
     }
 }
 /* Large devices (laptops/desktops, 1000px and up) */

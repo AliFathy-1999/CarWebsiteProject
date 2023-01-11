@@ -7,9 +7,7 @@
 #nav-style{
     background-color: #ADD7F6;
     overflow: hidden; /*to appear background-color */
-    /*position: fixed;
-    top: 0;
-    width: 100%;*/
+    
 }
 #logo{
     width: 11vh;
@@ -20,10 +18,10 @@ nav>ul>li{
     list-style: none;
 }
 .style-list{
-    text-decoration: none;
-    color:black;    
+    text-decoration: none;   
     font-size: 2em;
     display: block;
+    color: #0C2D48;
 }
 #style-ul{
     float: right;
@@ -33,9 +31,8 @@ nav>ul>li{
     margin: 3vh;
 }
 #style-ul>li>a:hover{
-    color: #5bc0de;
-    border-top: 5px solid #5bc0de
-    ;
+    color: white;
+    border-top: 5px solid #145DA0;
 }
 .active{
     background-color: #0275d8;
@@ -48,7 +45,7 @@ nav>ul>li{
 }
 .menu-style{
     display: none;
-    background-color:#0275d8 ;
+    background-color:#ADD7F6 ;
     overflow: hidden; /*to appear background-color */
 }
 .icon-style{
@@ -69,6 +66,9 @@ nav>ul>li{
     }
     .menu-style{
         display: block;
+    }
+    #style-ul{
+        display: none;
     }
     #style-ul>li{
         display: block;

@@ -1,18 +1,13 @@
 #login-style{
     margin: auto;
-    margin-top: 20vh;
+    margin-top: 10vh;
     width: 45%;
     border: 10px solid #ADD7F6;
-    padding: 4vh;
     border-radius: 2em;
     overflow: auto;
     padding: 5vw;
 }
-#footer-style{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
+
 input{
     margin-left: 0.9vw;
     margin-bottom: 1vw;
@@ -43,11 +38,42 @@ h1{
     margin-top: 4vh;
     width: 10vw;
     background-color: #ADD7F6;
-    color: blue;
+    color: #145DA0;
     padding: 1%;
     border: 0;
     border-radius: 100px ;
     font-weight: bold;
     margin-left: 30%;
     cursor: pointer;
+    font-size: 1.2em;
+}
+#login-title{
+    text-align: center;
+    margin-bottom: 2vh;
+    font-size: 1.6em;
+}
+/* tablets and small devices (phones, 1000px and down) */
+@media only screen and (max-width:1000px) {
+    #login-style{
+        width: 80%;
+    }
+    #email,#password{
+        width: 100%;
+    }
+    #button-style{
+        width: 40%;
+    }
+
+}
+/* Large devices (laptops/desktops, 1000px and up) */
+@media only screen and (min-width:1000px) and (max-width:1400px){
+    #login-style{
+        width: 80%;
+    }
+    #email,#password{
+        width: 100%;
+    }
+    #button-style{
+        width: 40%;
+    }
 }
