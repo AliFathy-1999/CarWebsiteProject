@@ -9,7 +9,7 @@
 .div-title{
     text-align: center;
     margin-top: 3vh;
-    
+    color:midnightblue
 }
 .products-style{
     margin-left: 10vw;
@@ -18,11 +18,12 @@
 }
 .products-style>section{
     float: left;
-    background-color: #eaeff1;
+    background-color: #f1f1f1;
     padding: 0.3vw;
     border-radius: 0.5vw;
     margin: 0.5vw;
     overflow: auto;
+    box-shadow: 8px 5px #ADD7F6 ;
 }
 .products-style>section>img{ 
     margin: 1vh 0 0 1vw;

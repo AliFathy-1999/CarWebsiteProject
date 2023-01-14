@@ -4,6 +4,13 @@
     padding: 0;
     font-family: "Trirong", serif;
 }
+body{
+    background-image: url("../images/websiteBKImage.jpeg");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+
+}
 #nav-style{
     background-color: #ADD7F6;
     overflow: hidden; /*to appear background-color */
@@ -31,14 +38,15 @@ nav>ul>li{
     margin: 3vh;
 }
 #style-ul>li>a:hover{
-    color: white;
-    border-top: 5px solid #145DA0;
+    color: #1434A4	;
+    border-top: 5px solid #1434A4;
 }
 .active{
     background-color: #0275d8;
     border-radius: 0.3vw;
     padding: 0.3vw;
     color: white;
+
 }
 .fixed{
     clear: both;
@@ -66,6 +74,10 @@ nav>ul>li{
     }
     .menu-style{
         display: block;
+    }
+    #menu-logo{
+        width: 14vw;
+        margin-top: 1.5vh;
     }
     #style-ul{
         display: none;

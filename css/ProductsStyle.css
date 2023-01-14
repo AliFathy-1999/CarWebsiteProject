@@ -8,32 +8,40 @@
     margin-right: 5vw;
     margin:10vh 5vw 0 0;
 }
-#car-image-desc-style h3,p {
+#car-image-desc-style h3 {
     text-align: center;
 }
+
 #product-table-style{
     float: right;
+}
+#price{
+    font-weight: bold;
+}
+#product-price{
+    text-align: center;
+    font-size: 1.2em;
 }
 table {
     border-collapse: collapse;
     width: 100%;
 }
 td, th {
-    border: 1px solid #dddddd;
+    border: 1px solid #0275d8;
     text-align: center;
     padding: 1vw;
     font-weight: bold;
 }
-tr:nth-child(even) {
+tr:nth-child(even) ,thead{
     background-color: #dddddd;
 }
 td:nth-child(1){
-    color: #0275d8;
+    color: blue;
 } 
 #car-title{
     text-align: center;
     margin-bottom: 2vh;
-    font-size: 1.6em;
+    font-size: 1.2em;
 }
 /* tablets and small devices (phones, 1000px and down) */
 @media only screen and (max-width:1000px) {
@@ -47,9 +55,19 @@ td:nth-child(1){
     #product-catlog{
         font-size: 1.2em;
     }
-    table{
+    #product-table-style{
+        width: 100%;
+        margin: 10vw;
+    }
+    #car-title{
+        font-size: 1.2em;
         width: 80%;
     }
+    #product-price{
+        font-size: 1.2em;
+        width: 80%;
+    }
+
 }
 /* Large devices (laptops/desktops, 1000px and up) */
 @media only screen and (min-width:1000px) and (max-width:1400px){
@@ -66,7 +84,16 @@ td:nth-child(1){
     #car-image-desc-style > p{
         font-size: 1em;
     }
-    #product-table-style>table{
+    #product-table-style{
         width: 100%;
+        margin: 10vw;
+    }
+    #car-title{
+        font-size: 1.8em;
+        width: 80%;
+    }
+    #product-price{
+        font-size: 1.5em;
+        width: 80%;
     }
 }

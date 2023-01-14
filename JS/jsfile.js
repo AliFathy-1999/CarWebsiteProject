@@ -3,3 +3,4 @@ $(document).ready(function(){
           $("#style-ul").toggle();
     });
   });
+  document.querySelector('video').play();
