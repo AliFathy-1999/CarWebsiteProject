@@ -4,3 +4,8 @@ $(document).ready(function(){
     });
   });
   document.querySelector('video').play();
+  var audio = new Audio('../images/carsound.wav');
+  function playMotorSound(){
+      audio.play();
+  }
+
