@@ -1,15 +1,19 @@
 #home-style{
     margin-top: 10vh;
-    
+}
+#brands-video{
+    text-align: center;
+    margin-bottom: 2vh;
+    color:#1434A4;
 }
 #videos-style{
     border: 0;
     margin-left: 20vh;
 }
 .div-title{
-    text-align: center;
+    text-align: center; 
     margin-top: 3vh;
-    color:midnightblue
+    color:#1434A4;
 }
 .products-style{
     margin-left: 10vw;
@@ -38,6 +42,7 @@
     height: 15vh;
     overflow:auto;
     font-weight: bold ;
+    margin-bottom: 2vh;
 }
 .product-desc{
     text-align: center;
@@ -53,6 +58,7 @@ section p::first-letter{
     background-color: #0275d8;
     border-radius: 8px;
     margin: 0 0 1vh 5vw;
+    font-size: 1em;
 }
 .show-more-button>a{
     text-decoration: none;
@@ -62,6 +68,12 @@ section p::first-letter{
 }
 /* tablets and small devices (phones, 1000px and down) */
 @media only screen and (max-width:1000px) {
+    #brands-video{
+        font-size: 1.4em;
+    }
+    body{
+        overflow-x: hidden;
+    }
     .products-style{
         width: 100%;
     }
@@ -73,6 +85,10 @@ section p::first-letter{
     }
     .products-style>section>p{
         width: fit-content;
+    }
+    .div-title{
+        font-size: 1.6em;
+        text-align: center;
     }
 }
 /* Large devices (laptops/desktops, 1000px and up) */
@@ -91,5 +107,4 @@ section p::first-letter{
     .products-style>section>p{
         width: fit-content;
     }
-    
 }

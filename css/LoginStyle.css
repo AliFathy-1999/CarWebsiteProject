@@ -65,7 +65,9 @@ h1{
     #button-style{
         width: 40%;
     }
-
+    footer{
+        height: 25vh ;
+    }
 }
 /* Large devices (laptops/desktops, 1000px and up) */
 @media only screen and (min-width:1000px) and (max-width:1400px){
